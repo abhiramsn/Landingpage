@@ -1,0 +1,283 @@
+
+  header{
+    /* border: 1px solid rgb(255, 114, 114); */
+    height: 50px;
+    padding: 10px;
+}
+
+nav{
+ /* float: right; */
+ /* border: 1px solid black; */
+ margin: auto 0;
+ position: relative;
+ top: 0px;
+ right: 0px;
+ padding: 10px 20px;
+}
+
+nav a {
+ padding-right: 50px;
+}
+
+.logo{
+ font-size:20px ;
+ margin: 20px;
+}
+
+.menu-item{
+ float: right;
+}
+
+main{
+height: 400px;
+background-color: burlywood;
+/* background-image: url("pexels-saurabh-solanki-730261070-18496445.jpg"); */
+background-size: cover;
+}
+
+section{
+
+/* border: 1px solid black; */
+padding: 20px;
+position: relative;
+top: 20px;
+
+}
+
+section h2{
+text-align: center;
+}
+
+.cards{
+/* border: 1px solid black; */
+padding: 20px;
+display: flex;
+justify-content: space-around;
+
+}
+.card{
+border: 1px solid black;
+height: 300px;
+width: 260px;
+}
+
+.info{
+/* border: 2px solid rgb(251, 14, 14); */
+margin-top: 30px;
+height:500px;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 30px;
+}
+
+
+.info>section{
+ /* border: 2px solid rgb(251, 14, 247); */
+display: flex;
+justify-content: space-around;
+}
+
+.content{
+width: 50%;
+}
+
+.content>p{
+font-size: 20px;
+}
+
+.info>section>img{
+width: auto;
+height: 400px;
+}
+
+.info>section>p{
+width: 50%;
+}
+
+.mission{
+/* border: 1px solid blue; */
+position: relative;
+top: 50px;
+padding: 40px;
+}
+.mission>h1{
+text-align: center;
+}
+
+hr{
+/* margin: 10px 10px; */
+width: 50%;
+position: relative;
+top: 10px;
+bottom: 10px;
+}
+
+.experties{
+
+/* border: 3px solid brown; */
+position: relative;
+top: 60px;
+height: auto;
+padding: 30px 30px;
+}
+
+.experties>h1{
+text-align: center;
+}
+
+.experties>.experts-block{
+display: flex;
+justify-content: space-around;
+/* border: 2px solid blue; */
+padding: 30px;
+align-items: center;
+}
+
+.person{
+margin-left: 80px;
+}
+
+.person>img{
+width: auto;
+height: 200px;
+border-radius: 50%;
+}
+
+.person>p{
+width: 50%;
+}
+
+footer
+{
+background-color: burlywood; 
+height: 200px;
+position: relative;
+top: 60px;
+margin-top: 20px;
+
+}
+
+
+@media (max-width:400px) {
+ 
+    header{
+    /* border: 1px solid rgb(242, 20, 20); */
+    height: 50px;
+} 
+ nav a {
+ padding-right: 8px;
+ font-size: small;
+}
+   nav{
+padding: 5px 0px;
+ position: relative;
+ top: 0px;
+ right: 0px;
+}
+
+.logo{
+ font-size:16px ;
+ margin: 5px;
+}
+
+main{
+height: 200px;
+/* background-image: url("pexels-saurabh-solanki-730261070-18496445.jpg"); */
+
+}
+
+section{
+
+
+padding: 10px;
+position: relative;
+top: 20px;
+
+}
+
+
+section h2{
+text-align: center;
+font-size: 18px;
+}
+
+.cards{
+border: 1px solid black;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+
+}
+.card{
+border: 1px solid black;
+height: 100px;
+width: 80px;
+}
+
+
+.info{
+/* border: 2px solid rgb(0, 0, 0); */
+margin-top: 30px;
+height:auto;
+/* display: flex;
+justify-content: space-around; */
+position: relative;
+top: 30px;
+padding: 0px;
+}
+
+
+.info>section{
+height: auto;
+ /* border: 2px solid rgb(182, 13, 58); */
+display: block;
+/* justify-content: space-around; */
+}
+
+.content{
+width: 80%;
+padding: 20px;
+}
+
+.content>p{
+font-size: 16px;
+}
+
+.info>section>img{
+width: auto;
+height: 250px;
+padding: 20px;
+}
+
+.experties>.experts-block{
+display: block;
+justify-content: space-around;
+/* border: 2px solid rgb(13, 13, 15); */
+padding: 40px;
+align-items: center;
+}
+
+.person{
+margin-left: 20px;
+position: relative;
+margin-top: 20px;
+}
+
+
+.person>img{
+width: auto;
+height: 180px;
+border-radius: 50%;
+}
+
+.person>h3{
+text-align: center;
+}
+.person>p{
+text-align: center;
+width: auto;
+}
+
+
+}
