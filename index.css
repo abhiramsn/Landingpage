@@ -30,6 +30,25 @@ nav a {
  float: right;
 }
 
+.service-items{
+    background-color: rgb(222, 247, 247);
+    position: absolute;
+    padding: 8px;
+    left: 81%;
+    display: none;
+    /* margin-top: px; */
+
+}
+.service-items a{
+    display: block;
+    padding: 10px;
+}
+
+#service:hover .service-items {
+    display: block;
+}
+
+
 main{
 height: 400px;
 background-color: burlywood;
