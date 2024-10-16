@@ -28,6 +28,7 @@ nav a {
 
 .menu-item{
  float: right;
+ transition: 5s;
 }
 
 .service-items{
@@ -39,6 +40,7 @@ nav a {
     /* margin-top: px; */
 
 }
+
 .service-items a{
     display: block;
     padding: 10px;
@@ -76,13 +78,13 @@ display: flex;
 justify-content: space-around;
 
 }
-.card{
+.card , .card img{
 border: 1px solid black;
 height: 300px;
 width: 260px;
-background-image: url('/Landingpage/images/18998.jpg');
+/* background-image: url('/Landingpage/images/18998.jpg');
 background-size: cover;
-background-position: center;
+background-position: center; */
 
 }
 
@@ -94,6 +96,7 @@ display: flex;
 justify-content: space-around;
 position: relative;
 top: 30px;
+transition: 1s;
 }
 
 
